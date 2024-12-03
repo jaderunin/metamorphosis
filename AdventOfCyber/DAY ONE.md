@@ -29,11 +29,11 @@ Once we see some content of the files, including the authors name, we look it up
 OPSEC (Operations Security) is a risk management process designed to identify and protect sensitive information that adversaries could exploit. Originally developed for military use, it is now widely applied in business, cybersecurity, and personal privacy contexts.
 
 ## Key Components of OPSEC:
-Identification of Critical Information
-Threat Analysis
-Vulnerability Assessment
-Risk Assessment
-Implementation of Countermeasures
+- Identification of Critical Information
+- Threat Analysis
+- Vulnerability Assessment
+- Risk Assessment
+- Implementation of Countermeasures
 
 In the context of cyber security, when malicious actors fail to follow proper OPSEC practices, they might leave digital traces that can be pieced together to reveal their identity. Some common OPSEC mistakes include:
 - Reusing usernames, email addresses, or account handles across multiple platforms. One might assume that anyone trying to cover their tracks would remove such obvious and incriminating information, but sometimes, it's due to vanity or simply forgetfulness.
