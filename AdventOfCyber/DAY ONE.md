@@ -18,6 +18,7 @@ Risks provided by websites that convert youtube to mp3 include:
 The file command in the terminal is used to determine and display the type of a file. It analyzes the file's content rather than relying solely on its extension, providing accurate information about its format and type.
 By running it, we infer that the somg.mp3 file is actually an "MS Windows shortcut", also known as a .lnk file. This file type is used in Windows to link to another file, folder, or application. These shortcuts can also be used to run commands.
 I then run exiftool for reading, editing, and managing metadata like the mp3 audio file we just downloaded.
+
 After that, I scrolled down to the powershell command and here's what this PowerShell command does:
 
 The -ep Bypass -nop flags disable PowerShell's usual restrictions, allowing scripts to run without interference from security settings or user profiles.
