@@ -14,6 +14,7 @@ Risks provided by websites that convert youtube to mp3 include:
 - Malvertising: Many sites contain malicious ads that can exploit vulnerabilities in a user's system, which could lead to infection.
 - Phishing scams: Users can be tricked into providing personal or sensitive information via fake surveys or offers.
 - Bundled malware: Some converters may come with malware, tricking users into unknowingly running it.
+
 The file command in the terminal is used to determine and display the type of a file. It analyzes the file's content rather than relying solely on its extension, providing accurate information about its format and type.
 By running it, we infer that the somg.mp3 file is actually an "MS Windows shortcut", also known as a .lnk file. This file type is used in Windows to link to another file, folder, or application. These shortcuts can also be used to run commands.
 I then run exiftool for reading, editing, and managing metadata like the mp3 audio file we just downloaded.
