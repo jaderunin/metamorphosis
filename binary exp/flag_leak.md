@@ -66,13 +66,14 @@ the %p format specifier to print the address of the buf pointer in hexadecimal. 
 inputted %p 128 times since the story's length is 128 then converted this address to its raw value aka UTF-8 using codechef.
 > To extract and convert the raw memory addresses from the output you provided, we need to isolate the hexadecimal values (0x...) that are valid addresses, ignoring any invalid ones (like (nil) or sequences without proper 0x prefixes).
 > Then i converted each hex value into ASCII which lead me to realise i had to reverse each block of 4 charecters. Used GPT to write some python code to do so (attached below)
-> # Encoded flag values as provided
+
+  Encoded flag values as provided
 encoded_flag_hex = [
     0x6f636970, 0x7b465443, 0x6b34334c, 0x5f676e31, 0x67346c46,
     0x6666305f, 0x3474535f, 0x395f6b63, 0x30366635, 0x7d373136
 ]
 
-# Function to decode the flag
+Function to decode the flag
 def decode_flag(encoded_hex):
     decoded_flag = ""
     for hex_value in encoded_hex:
@@ -83,7 +84,7 @@ def decode_flag(encoded_hex):
         decoded_flag += bytes.fromhex(reversed_block).decode('ascii')
     return decoded_flag
 
-# Decode the flag
+Decode the flag
 decoded_flag = decode_flag(encoded_flag_hex)
 decoded_flag
 
