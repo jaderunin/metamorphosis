@@ -1,5 +1,5 @@
 # description:
-We found this file. Recover the flag.
+Figure out how they moved the flag.
 # solution:
 The task was to figure out how the flag was hidden, using network traffic and steganography techniques.
 The challenge provided a .pcapng file, which is a network packet capture file. These files are typically used to store data captured from network traffic.I used Wireshark, a popular network protocol analyzer, to open the .pcapng file. The first clue came from the challenge name "Trivial Flag Transfer Protocol," which pointed to TFTP (Trivial File Transfer Protocol) being used in the captured traffic.
@@ -27,4 +27,4 @@ The message suggested checking out photos, which pointed to image files in the T
     * The correct passphrase, without spaces, was used to extract hidden data from picture3.bmp. The flag was successfully revealed: Copy code   picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919} 
 this one genuinely screwed me over lol.
 # Flag:
-picoCTF{qu1t3_a_v13w_2020}
+picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
