@@ -27,4 +27,4 @@ The message suggested checking out photos, which pointed to image files in the T
     * The correct passphrase, without spaces, was used to extract hidden data from picture3.bmp. The flag was successfully revealed: Copy code   picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919} 
 this one genuinely screwed me over lol.
 # Flag:
-picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
+picoCTF{qu1t3_a_v13w_2020}
